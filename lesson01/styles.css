@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-image {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+
+/* Nav Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Section Heading Styles */
+h1, h2 {
+    color: #333;
+}
+
+/* Profile Picture */
+.profile-pic {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Second Image */
+.second-image {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
