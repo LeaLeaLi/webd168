@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+img.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.second-image {
+  border: 2px solid gray;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}/*# sourceMappingURL=styles.css.map */

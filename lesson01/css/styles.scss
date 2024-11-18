@@ -1,0 +1,32 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #f4f4f4;
+
+// General Styles
+body {
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+
+// Header Image
+img.header-image {
+  width: 100%;
+  height: auto;
+}
+
+// Profile Picture
+.profile-pic {
+  border-radius: 50%;
+}
+
+// Second Image
+.second-image {
+  border: 2px solid lighten($primary-color, 30%);
+}
+
+// Footer
+footer {
+  background-color: darken($primary-color, 10%);
+  color: $secondary-color;
+}
