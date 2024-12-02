@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+img.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  opacity: 0.5;
+  transition: opacity 2s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.rotating-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 50%;
+  margin-top: 20px;
+  animation: rotateCircle 3s linear infinite;
+}
+
+@keyframes rotateCircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
